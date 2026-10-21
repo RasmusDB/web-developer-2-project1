@@ -16,7 +16,7 @@ This project is meant as a simple test to see how DOM manipulation works by usin
 
 ### Wireframe / sketch
 
-
+![Wireframe](images/wireframe.png)
 
 ## Web links
 
