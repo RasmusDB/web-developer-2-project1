@@ -1,6 +1,6 @@
-# Project name
+# To-Do Notepad List
 
-**Author(s):** Write your name / the names of all authors here
+**Author:** Rasmus Bergholm
 
 ## Project plan
 
@@ -12,7 +12,7 @@ This project is meant as a simple test to see how DOM manipulation works by usin
 
 - Button that adds a saved entry of a to-do thing 
 - Different labels added to it
-- Drag n drop w remove
+- Drag & drop with remove
 
 ### Wireframe / sketch
 
@@ -21,9 +21,9 @@ This project is meant as a simple test to see how DOM manipulation works by usin
 
 ## Web links
 
-- **Published application:** [Add your GitHub Pages URL here](https://rasmusdb.github.io/web-developer-2-project1//)
-- **GitHub repository:** [Add your repository URL here](https://github.com/RasmusDB/web-developer-2-project1)
-- **Project video presentation:** [Add your video URL here](https://example.com/)
+- **Published application:** [Link here](https://rasmusdb.github.io/web-developer-2-project1//)
+- **GitHub repository:** [Link here](https://github.com/RasmusDB/web-developer-2-project1)
+- **Project video presentation:** [Link here](https://youtu.be/zhee11bN6Fw)
 
 ## About the application
 
