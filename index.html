@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepad Project</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+<main>
+    <h1>Notepad Project</h1>
+
+    <section class="newTask">
+        <h2>New task</h2>
+        <form id="taskForm" novalidate>
+            <label for="taskText">Task</label>
+            <input id="taskText" name="task" type="text" required aria-describedby="taskError">
+            <span id="taskError" class="error" aria-live="polite"></span>
+
+            <div class="formRow">
+                <div class="field">
+                    <label for="taskCategory">Category</label>
+                    <select id="taskCategory" name="category" required aria-describedby="categoryError">
+                        <option value="">Choose...</option>
+                        <option value="School">School</option>
+                        <option value="Home">Home</option>
+                        <option value="Work">Work</option>
+                        <option value="Hobby">Hobby</option>
+                    </select>
+                    <span id="categoryError" class="error" aria-live="polite"></span>
+                </div>
+
+                <div class="field">
+                    <label for="taskPriority">Priority</label>
+                    <select id="taskPriority" name="priority">
+                        <option value="Low">Low</option>
+                        <option value="Medium" selected>Medium</option>
+                        <option value="High">High</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="taskDue">Due date</label>
+                    <input id="taskDue" name="due" type="date" required aria-describedby="dueError">
+                    <span id="dueError" class="error" aria-live="polite"></span>
+                </div>
+            </div>
+
+            <button type="submit">Add task</button>
+        </form>
+        <p id="formResult" role="status"></p>
+    </section>
+
+    <section>
+        <h2>Tasks</h2>
+        <p id="emptyMessage">No tasks yet.</p>
+        <ul id="taskList"></ul>
+    </section>
+</main>
+
+</body>
+
+</html>
